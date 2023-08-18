@@ -87,7 +87,7 @@ class Queue {
      * removing it from the queue
      * @returns {any} The next element in the queue
      */
-    public peek(): any {
+    public peek(): any | undefined {
         return this.elements.get(this.head);
     }
 
