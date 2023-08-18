@@ -1,6 +1,6 @@
 {
   "name": "@jaypaulincodes/ssqueue",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple NPM package to provide a queue class",
   "main": "dist/index.js",
   "scripts": {
