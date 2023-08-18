@@ -1,0 +1,28 @@
+{
+  "name": "ssqueue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SparrowStudios/ssQueue.git"
+  },
+  "keywords": [
+    "queue",
+    "Queue"
+  ],
+  "author": "SparrowStudios",
+  "license": "Mozilla Public License Version 2.0",
+  "bugs": {
+    "url": "https://github.com/SparrowStudios/ssQueue/issues"
+  },
+  "homepage": "https://github.com/SparrowStudios/ssQueue#readme",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
+}
