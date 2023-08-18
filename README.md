@@ -16,6 +16,64 @@
 # ssQueue
 A simple package to provide a queue class 
 
+### Usage
+Install using NPM
+```cmd
+npm install @jaypaulincodes/ssqueue
+```
+
+Import the package with the following import statement:
+```ts
+import Queue from "@jaypaulincodes/ssqueue";
+```
+
+Once imported you can create a new queue:
+```ts
+const MY_QUEUE = new Queue();
+```
+
+You can use the `enqueue()` method to add items to the queue:
+```ts
+MY_QUEUE.enqueue("foo");
+```
+
+Using the `dequeue()` method you can retreive the next item in the queue, removing it from the queue in the process:
+```ts
+const nextItem = MY_QUEUE.dequeue();
+```
+
+<br>
+Complete example code:
+```ts
+import Queue from "@jaypaulincodes/ssqueue";
+
+const MY_QUEUE = new Queue();
+
+MY_QUEUE.enqueue("dog");
+MY_QUEUE.enqueue("cat");
+MY_QUEUE.enqueue("frog");
+
+console.log("Starting to process queue of not frogs");
+
+while (MY_QUEUE.hasNext) {
+    if (MY_QUEUE.peek() === "frog") {
+        break;
+    }
+
+    console.log(`Processing queue item: ${MY_QUEUE.dequeue()}`);
+}
+
+console.log("Finished processing queue");
+```
+
+Output:
+```
+Starting to process queue of not frogs
+Processing queue item: dog
+Processing queue item: cat
+Finished processing queue
+```
+
 # Discord
 Join [our Discord server](https://discord.gg/FTYjcbkzFn) for quick communication with the team and for support.
 
