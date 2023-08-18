@@ -1,13 +1,19 @@
 {
-  "name": "ssqueue",
+  "name": "@jaypaulincodes/ssqueue",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple NPM package to provide a queue class",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc"
   },
   "types": "dist/index.d.ts",
   "type": "module",
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md",
+    "package.json"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SparrowStudios/ssQueue.git"
