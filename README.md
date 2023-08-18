@@ -42,7 +42,6 @@ Using the `dequeue()` method you can retreive the next item in the queue, removi
 const nextItem = MY_QUEUE.dequeue();
 ```
 
-<br>
 Complete example code:
 ```ts
 import Queue from "@jaypaulincodes/ssqueue";
